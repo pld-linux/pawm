@@ -15,19 +15,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Pawm is a window manager for the X Window system. So it's not a
 'desktop' and doesn't offer you a huge pile of useless options, just
-the facilities needed to run your X applications.
+the facilities needed to run X applications.
 
 %description -l pl
 Pawm jest zarz±dc± okien dla X Window. Nie jest do 'desktop' i nie
 oferuje ogromnej liczby bezu¿ytecznych opcji, daje tylko mo¿liwo¶æ
-uruchomienia Twoich aplikacji.
+uruchomienia aplikacji.
 
 %prep
 %setup -q
 
 %build
 ./0 \
-        --prefix=%{_prefix} \
+	--prefix=%{_prefix} \
 	--libdir=%{_libdir} \
 	--statedir=/var/%{_lib} \
 	--xbindir=%{_libdir}/pawm
