@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=XSession
+Exec=pawm
+TryExec=pawm
+Name=PAWM
+Comment=Puto Amo Window Manager
+# vi: encoding=utf-8
+
