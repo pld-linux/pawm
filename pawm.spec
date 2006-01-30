@@ -20,7 +20,7 @@ the facilities needed to run X applications.
 %description -l pl
 Pawm jest zarz±dc± okien dla X Window. Nie jest do 'desktop' i nie
 oferuje ogromnej liczby bezu¿ytecznych opcji, daje tylko mo¿liwo¶æ
-uruchomienia aplikacji.
+uruchamiania aplikacji X.
 
 %prep
 %setup -q
@@ -35,7 +35,7 @@ uruchomienia aplikacji.
 	LD="%{__cc}" \
 	GCC="%{__cc}" \
 	CFLAGS="%{rpmcflags}" \
-	LDFLAGS="%{rpmldflags} -L%{_prefix}/X11R6/%{_lib}"
+	LDFLAGS="%{rpmldflags} -L/usr/X11R6/%{_lib}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
