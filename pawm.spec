@@ -1,5 +1,5 @@
 Summary:	pawm - Light Weight Window Manager
-Summary(pl):	pawm - lekki zarz±dca okien
+Summary(pl.UTF-8):   pawm - lekki zarzÄ…dca okien
 Name:		pawm
 Version:	2.0.3
 Release:	1
@@ -17,9 +17,9 @@ Pawm is a window manager for the X Window system. So it's not a
 'desktop' and doesn't offer you a huge pile of useless options, just
 the facilities needed to run X applications.
 
-%description -l pl
-Pawm jest zarz±dc± okien dla X Window. Nie jest do 'desktop' i nie
-oferuje ogromnej liczby bezu¿ytecznych opcji, daje tylko mo¿liwo¶æ
+%description -l pl.UTF-8
+Pawm jest zarzÄ…dcÄ… okien dla X Window. Nie jest do 'desktop' i nie
+oferuje ogromnej liczby bezuÅ¼ytecznych opcji, daje tylko moÅ¼liwoÅ›Ä‡
 uruchamiania aplikacji X.
 
 %prep
