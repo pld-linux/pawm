@@ -1,5 +1,5 @@
 Summary:	pawm - Light Weight Window Manager
-Summary(pl.UTF-8):   pawm - lekki zarządca okien
+Summary(pl.UTF-8):	pawm - lekki zarządca okien
 Name:		pawm
 Version:	2.0.3
 Release:	1
